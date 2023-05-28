@@ -10,7 +10,7 @@ function ProfileAvatar() {
                 </div>
             </div>
 
-            <h1 className="text-4xl font-bold mt-2">Rolando Rio Garaboa 🚀</h1>
+            <h1 className="text-4xl font-bold mt-2 text-center">Rolando Rio Garaboa 🚀</h1>
         </div>
 
     );
