@@ -7,11 +7,11 @@ interface ContactsContainerProps {
 function ContactsContainer(props: ContactsContainerProps) {
     return (
         
-        <div className={`card bg-sky-100 shadow-xl pr-5 pl-5 ${props.className ?? ''}`}>
+        <div className={`card bg-sky-100 shadow-xl pr-6 pl-6 ${props.className ?? ''}`}>
             <div
             className="flex flex-col items-center justify-center card-body">
 
-                <div className="text-3xl">Contact Info</div>
+                <div className="text-2xl font-medium">Contact Info</div>
 
                 <div className="flex flex-col justify-start items-start mt-5">
 

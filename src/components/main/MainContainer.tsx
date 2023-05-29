@@ -17,7 +17,7 @@ function MainContainer() {
                 </div>
             </div>
 
-            <ResumeContainer className="mt-28 mb-20"/>
+            <ResumeContainer className="mt-20 mb-20"/>
 
             <ContactsContainer
                 className=" landscape:hidden portrait:visible"/>

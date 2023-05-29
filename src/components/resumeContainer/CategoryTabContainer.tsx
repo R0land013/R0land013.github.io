@@ -26,7 +26,7 @@ export default function CategoryTabContainer(props: CategoryTabContainer) {
                         text={aCategory}
                         isActive={aCategory === props.selectedCategory}
                         onClick={() => callOnSelectedNewCategoryIfNeeded(aCategory)}
-                        className="mr-4"/>
+                        className="mr-4 mt-2"/>
                 );
             })}
         </div>
