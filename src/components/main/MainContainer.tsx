@@ -11,8 +11,8 @@ function MainContainer() {
                     <p className='text-2xl'>
                         Hi there 👋. I am Rolando Rio Garaboa, an Informatics Engineer
                         that loves programming and learning about anything that it is
-                        interesting in this world 🌎. if you are interested in knowning
-                        more about me here you have a resume 👇.
+                        interesting in this world 🌎. If you are interested in knowning
+                        more about me, here you have a resume 👇.
                     </p>
                 </div>
             </div>
@@ -32,8 +32,7 @@ const mainContainerClassName = `
     h-full
     mt-12
     pb-12
-    landscape:ml-10
-    landscape:w-4/6
+    landscape:w-6/6
 
     portrait: w-full
     portrait: pl-5

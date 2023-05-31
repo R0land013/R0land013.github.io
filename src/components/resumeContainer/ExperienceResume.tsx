@@ -4,7 +4,7 @@ import { experience } from "../../data/experience";
 export default function ExperienceResume() {
     return (
         <div className="flex flex-col w-full">
-            <h2 className="text-3xl font-bold mb-10">Experience</h2>
+            {/* <h2 className="text-3xl font-bold mb-10">Experience</h2> */}
 
             <ol className="border-l-[3px] border-l-sky-600">
                 

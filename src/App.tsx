@@ -14,7 +14,7 @@ function App() {
 const className = `
     flex
     flex-row
-    mt-7
+    pt-7
     landscape:items-start
     landscape:justify-around
     landscape:pl-4
@@ -23,6 +23,8 @@ const className = `
     
     portrait:flex-col
     portrait:items-center
+
+    bg-gradient-to-b from-indigo-200 to-transparent
 `;
 
 export default App;
