@@ -7,3 +7,10 @@
     height: 100%;
 }
 
+a {
+    color: rgb(142, 60, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}

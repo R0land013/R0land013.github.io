@@ -8,7 +8,7 @@ interface ContactItemProps {
 
 function ContactItem(props: ContactItemProps) {
     return (
-        <a href={props.contactUrl}>
+        <a href={props.contactUrl} className="text-current hover:no-underline">
             <div className={`${contactItemClassName} ${props.className ?? ''}` }>
                 <img src={props.iconUrl} className="w-8"/>
                 <div className="text-lg font-medium ml-4">{props.text}</div>

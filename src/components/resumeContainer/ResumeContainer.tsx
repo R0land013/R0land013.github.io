@@ -3,6 +3,7 @@ import {useState} from 'react';
 import { ResumeCategory } from './CategoryTabContainer';
 import ExperienceResume from "./ExperienceResume";
 import SkillsResume from "./SkillsResume";
+import ProductsResume from "./ProductsResume";
 
 interface ResumeContainerProps {
     className?: string;
@@ -29,7 +30,10 @@ function ResumeContainer(props: ResumeContainerProps) {
                         <ExperienceResume/> :
 
                         selectedCategory === 'Skills' ?
-                        <SkillsResume/> : null
+                        <SkillsResume/> :
+
+                        selectedCategory === 'Products' ?
+                        <ProductsResume/> : null
                     }
 
                 </div>
