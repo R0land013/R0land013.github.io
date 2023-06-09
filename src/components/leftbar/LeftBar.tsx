@@ -7,7 +7,7 @@ function LeftBar() {
         <div className={leftBarClassName}>
             <ProfileAvatar/>
 
-            <ContactsContainer className="mt-20 portrait:hidden"/>
+            <ContactsContainer className="mt-20 hidden lg:block"/>
         </div>
     );
 }
@@ -16,7 +16,7 @@ const leftBarClassName = `
     flex
     flex-col
     items-center
-    landscape:w-2/6
+    lg:w-2/6
 `;
 
 export default LeftBar;

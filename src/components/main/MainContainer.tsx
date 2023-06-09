@@ -20,7 +20,7 @@ function MainContainer() {
             <ResumeContainer className="mt-20 mb-20"/>
 
             <ContactsContainer
-                className=" landscape:hidden portrait:visible"/>
+                className="block lg:hidden"/>
         </div>
     );
 }
@@ -31,12 +31,11 @@ const mainContainerClassName = `
     justify-around
     h-full
     mt-12
-    pb-12
-    landscape:w-6/6
-
-    portrait: w-full
-    portrait: pl-5
-    portrait: pr-5
+    pb-5
+    
+    w-full
+    pl-5
+    pr-5
 `;
 
 export default MainContainer;

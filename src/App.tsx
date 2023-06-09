@@ -12,17 +12,17 @@ function App() {
 }
 
 const className = `
-    flex
-    flex-row
-    pt-7
-    landscape:items-start
-    landscape:justify-around
-    landscape:pl-4
-    landscape:pr-4
-
+    flex-col
+    items-center
+    justify-center
+    pt-5
     
-    portrait:flex-col
-    portrait:items-center
+    lg:flex
+    lg:flex-row
+    lg:items-start
+    lg:justify-around
+    lg:pl-4
+    lg:pr-4
 
     bg-gradient-to-b from-indigo-200 to-transparent
 `;
