@@ -16,18 +16,18 @@ function ContactsContainer(props: ContactsContainerProps) {
                 <div className="flex flex-col justify-start items-start mt-5">
 
                     <ContactItem
-                        iconUrl="/src/assets/twitter.svg"
+                        iconUrl="/images/twitter.svg"
                         text="See my tweets!"
                         contactUrl="https://twitter.com/r0landorio"/>
 
                     <ContactItem
-                        iconUrl="/src/assets/github.svg"
+                        iconUrl="/images/github.svg"
                         text="My repos"
                         contactUrl="https://github.com/R0land013"
                         className="mt-6"/>
                     
                     <ContactItem
-                        iconUrl="/src/assets/telegram.svg"
+                        iconUrl="/images/telegram.svg"
                         text="Let's chat!"
                         contactUrl="https://t.me/r0land01"
                         className="mt-6"/>

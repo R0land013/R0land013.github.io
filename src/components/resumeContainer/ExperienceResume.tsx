@@ -14,7 +14,7 @@ export default function ExperienceResume() {
                         className={`${index !== 0 ? 'mt-24' : ''}`}>
                         
                         <div className="flex-start flex items-center">
-                            <img className="-ml-4 -mt-2 mr-3 flex h-8 w-8 items-center justify-center" src="/src/assets/earth.png"/>
+                            <img className="-ml-4 -mt-2 mr-3 flex h-8 w-8 items-center justify-center" src="/images/earth.png"/>
                             <h3 className="-mt-2 text-2xl font-semibold w-5/6 text-black">{anExperience.workName}</h3>
                         </div>
                         

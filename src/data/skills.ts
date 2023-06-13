@@ -15,27 +15,27 @@ const skillGroups: Array<SkillGroup> = [
         skills: [
             {
                 name: 'React',
-                iconPath: '/src/assets/react.svg',
+                iconPath: '/images/react.svg',
             },
             {
                 name: 'React Native',
-                iconPath: '/src/assets/react-native.svg',
+                iconPath: '/images/react-native.svg',
             },
             {
                 name: 'Django',
-                iconPath: '/src/assets/django.svg',
+                iconPath: '/images/django.svg',
             },
             {
                 name: 'Django REST framework',
-                iconPath: '/src/assets/djangorest.svg',
+                iconPath: '/images/djangorest.svg',
             },
             {
                 name: 'PyQt5',
-                iconPath: '/src/assets/qt.svg',
+                iconPath: '/images/qt.svg',
             },
             {
                 name: 'SQLAlchemy',
-                iconPath: '/src/assets/sqlalchemy.svg',
+                iconPath: '/images/sqlalchemy.svg',
             },
         ]
     },
@@ -44,20 +44,20 @@ const skillGroups: Array<SkillGroup> = [
         skills: [
             {
                 name: 'Python',
-                iconPath: '/src/assets/python.svg',
+                iconPath: '/images/python.svg',
             },
             {
                 name: 'JavaScript',
-                iconPath: '/src/assets/javascript.svg',
+                iconPath: '/images/javascript.svg',
             },{
                 name: 'TypeScript',
-                iconPath: '/src/assets/typescript.svg',
+                iconPath: '/images/typescript.svg',
             },{
                 name: 'Java',
-                iconPath: '/src/assets/java.svg',
+                iconPath: '/images/java.svg',
             },{
                 name: 'C++',
-                iconPath: '/src/assets/c-plusplus.svg',
+                iconPath: '/images/c-plusplus.svg',
             },
         ]
     },
@@ -66,11 +66,11 @@ const skillGroups: Array<SkillGroup> = [
         skills: [
             {
                 name: 'PostgreSQL',
-                iconPath: '/src/assets/postgresql.svg',
+                iconPath: '/images/postgresql.svg',
             },
             {
                 name: 'SQLite',
-                iconPath: '/src/assets/sqlite.svg',
+                iconPath: '/images/sqlite.svg',
             },
         ]
     },

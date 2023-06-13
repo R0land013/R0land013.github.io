@@ -6,7 +6,7 @@ function ProfileAvatar() {
             <div className="avatar">
                 <div
                     className="w-60 rounded-full bg-sky-100 shadow-xl">
-                    <img src="/src/assets/avatar.png" />
+                    <img src="/images/avatar.png" />
                 </div>
             </div>
 

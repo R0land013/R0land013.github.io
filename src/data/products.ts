@@ -31,12 +31,12 @@ const products: Array<Product> = [
     {
         name: 'Blue POS',
         markdownDescription: bluePOSDescription,
-        iconPath: '/src/assets/bluepos.png',
+        iconPath: '/images/bluepos.png',
     },
     {
         name: 'Blue Nauta',
         markdownDescription: blueNautaDescription,
-        iconPath: '/src/assets/bluenauta.png'
+        iconPath: '/images/bluenauta.png'
     }
 ];
 
