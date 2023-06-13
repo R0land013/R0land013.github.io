@@ -5,10 +5,10 @@ function MainContainer() {
     return (
         <div className={mainContainerClassName}>
             
-            <div className="card bg-sky-100 shadow-xl">
+            <div className="card bg-white shadow-xl">
                 
                 <div className="card-body">
-                    <p className='text-2xl'>
+                    <p className='text-2xl text-black'>
                         Hi there 👋. I am Rolando Rio Garaboa, an Informatics Engineer
                         that loves programming and learning about anything that it is
                         interesting in this world 🌎. If you are interested in knowning

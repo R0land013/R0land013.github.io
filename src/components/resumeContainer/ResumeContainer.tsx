@@ -21,7 +21,7 @@ function ResumeContainer(props: ResumeContainerProps) {
                 selectedCategory={selectedCategory}
                 onSelectedNewCategory={(newCategory) => setSelectedCategory(newCategory)}/>
 
-            <div className="card bg-sky-100 shadow-xl mt-3">
+            <div className="card bg-white shadow-xl mt-3">
                 <div
                 className="flex flex-col items-center justify-start card-body text-2xl">
                     

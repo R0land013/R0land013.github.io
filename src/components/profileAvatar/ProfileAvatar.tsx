@@ -5,12 +5,12 @@ function ProfileAvatar() {
             
             <div className="avatar">
                 <div
-                    className="w-60 rounded-full shadow-slate-300 shadow-xl">
-                    <img src="/src/assets/avatar.jpeg" />
+                    className="w-60 rounded-full bg-sky-100 shadow-xl">
+                    <img src="/src/assets/avatar.png" />
                 </div>
             </div>
 
-            <h1 className="text-4xl font-bold mt-4 text-center">Rolando Rio Garaboa 🚀</h1>
+            <h1 className="text-4xl font-bold mt-4 text-center text-black">Rolando Rio Garaboa 🚀</h1>
         </div>
 
     );

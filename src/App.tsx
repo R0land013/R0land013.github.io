@@ -24,7 +24,7 @@ const className = `
     lg:pl-4
     lg:pr-4
 
-    bg-gradient-to-b from-indigo-200 to-transparent
+    bg-gradient-to-b from-stone-400 to-transparent
 `;
 
 export default App;

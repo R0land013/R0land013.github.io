@@ -11,7 +11,7 @@ function ContactItem(props: ContactItemProps) {
         <a href={props.contactUrl} className="text-current hover:no-underline">
             <div className={`${contactItemClassName} ${props.className ?? ''}` }>
                 <img src={props.iconUrl} className="w-8"/>
-                <div className="text-lg font-medium ml-4">{props.text}</div>
+                <div className="text-lg font-medium ml-4 text-black">{props.text}</div>
             </div>
         </a>
     );

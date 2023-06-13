@@ -13,14 +13,14 @@ function TabButton(props: TabButtonProps) {
             className={`
                 tab
                 text-xl
-                bg-sky-400
+                bg-slate-500
                 text-white
                 ${props.className}
-                ${props.isActive ? 'bg-sky-700' : ''}
+                ${props.isActive ? 'bg-slate-800' : ''}
                 
                 hover:shadow-sm
                 hover:shadow-sky-700
-                hover:bg-sky-500`}
+                hover:bg-slate-400`}
             onClick={props.onClick}>
             
             {props.text}

@@ -16,11 +16,11 @@ export default function ProductsResume() {
                                 className='w-16 mr-3'
                                 src={aProduct.iconPath}/>  : null}
                         
-                        <h2 className='text-3xl font-semibold'>{aProduct.name}</h2>
+                        <h2 className='text-3xl font-semibold text-black'>{aProduct.name}</h2>
                     
                     </div>
 
-                    <ReactMarkdown className='w-full'>
+                    <ReactMarkdown className='w-full text-black'>
                         {aProduct.markdownDescription}
                     </ReactMarkdown>
 
