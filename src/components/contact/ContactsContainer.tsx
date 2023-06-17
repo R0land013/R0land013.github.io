@@ -1,4 +1,5 @@
 import ContactItem from "./ContactItem";
+import contacts from '../../data/contacts';
 
 interface ContactsContainerProps {
     className?: string;
@@ -15,22 +16,15 @@ function ContactsContainer(props: ContactsContainerProps) {
 
                 <div className="flex flex-col justify-start items-start mt-5">
 
-                    <ContactItem
-                        iconUrl="/images/twitter.svg"
-                        text="See my tweets!"
-                        contactUrl="https://twitter.com/r0landorio"/>
+                    {contacts.map((contact) => (
 
-                    <ContactItem
-                        iconUrl="/images/github.svg"
-                        text="My repos"
-                        contactUrl="https://github.com/R0land013"
-                        className="mt-6"/>
-                    
-                    <ContactItem
-                        iconUrl="/images/telegram.svg"
-                        text="Let's chat!"
-                        contactUrl="https://t.me/r0land01"
-                        className="mt-6"/>
+                        <ContactItem
+                            key={contact.url}
+                            iconUrl={contact.iconUri}
+                            text={contact.description}
+                            contactUrl={contact.url}
+                            className="mt-6"/>
+                    ))}
 
                 </div>
             </div>
