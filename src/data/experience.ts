@@ -13,7 +13,7 @@ export const experience: Array<ExperienceType> = [
     
     {
         workName: 'Ewall Insurance Company',
-        workingPeriod: 'Nov 2022 - present',
+        workingPeriod: 'Nov 2022 - Jul 2023',
         place: 'Remote - part time',
         role: 'Software Developer',
         description: 'Working in a Scrum team. Using React Native and AWS technologies.'
