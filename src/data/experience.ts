@@ -21,10 +21,10 @@ export const experience: Array<ExperienceType> = [
 
     {
         workName: 'University of Camagüey Ignacio Agramonte Loynaz',
-        workingPeriod: 'Jan 2022 - present',
+        workingPeriod: 'Jan 2023 - Nov 2023',
         place: 'Camagüey, Cuba - full time',
         role: 'Professor',
-        description: 'Teaching Mathematical Logic to the students of the Faculty of Informatics and Exact Sciences. Fulfilling tasks of the Department of Informatics of the faculty and participating in research projects.'
+        description: 'Teaching Web Programming and Mathematical Logic to the students of the Faculty of Informatics and Exact Sciences. Fulfilling tasks of the Department of Informatics of the faculty and participating in research projects.'
     },
 ];
 
